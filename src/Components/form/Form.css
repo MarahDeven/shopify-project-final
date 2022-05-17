@@ -1,0 +1,32 @@
+.form {
+  background-color: rgb(199, 77, 20);
+  display: flex;
+  margin: 10px;
+}
+
+input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid #ffa260;
+  color: black;
+}
+
+button {
+  background: none;
+  border-radius: 1.5em;
+  color: black;
+  border: 1px solid black;
+  padding: 0.7rem 1.5rem;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  transition: all 0.25s;
+}
+
+button:hover {
+  border-color: #ffa260;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.1em);
+  cursor: pointer;
+}
