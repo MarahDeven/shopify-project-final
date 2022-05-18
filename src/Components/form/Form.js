@@ -21,7 +21,7 @@ export default function Form({
             onChange={(e) => setScaryTopic(e.target.value)}
           />
         </div>
-        <button type="submit" className="btn btn-outline-primary">
+        <button type="submit" aria-label="submit">
           Submit
         </button>
       </form>

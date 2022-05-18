@@ -18,7 +18,6 @@ export default function Footer() {
             </a>{" "}
             and{" "}
             <a
-              href="https://github.com/MarahDeven/react-dictionary-app"
               target="_blank"
               rel="noreferrer"
             >

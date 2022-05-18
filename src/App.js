@@ -7,7 +7,7 @@ import "./App.css";
 const { Configuration, OpenAIApi } = require("openai");
 
 export default function App() {
-  // const [data, setData] = useState({});
+  //const [data, setData] = useState({});
   const [scaryTopic, setScaryTopic] = useState("");
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
@@ -79,7 +79,7 @@ export default function App() {
       {loading ? (
         <div>...loading</div>
       ) : (
-        <div>
+        <div className="hidden">
           <div>{prompt}</div>
           <br />
           <div>{response}</div>
